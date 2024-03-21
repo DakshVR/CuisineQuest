@@ -4,24 +4,24 @@ CuisineQuest is an Android application developed in Kotlin using Android Studio.
 
 ## Features
 
-Landing Page: Users can search for recipes and are presented with cards containing brief information about each recipe. Clicking on a card navigates the user to a detailed view of the recipe.
-Recipe Details: Detailed information about the recipe is displayed including options to save to favorites, share the recipe, and utilize a timer feature for cooking.
-Favorites Screen: Users can view a list of their saved favorite recipes.
-Add Recipe: Users can contribute their recipes by entering recipe details.
+- **Landing Page**: Users can search for recipes and are presented with cards containing brief information about each recipe. Clicking on a card navigates the user to a detailed view of the recipe.
+- **Recipe Details**: Detailed information about the recipe is displayed including options to save to favorites, share the recipe, and utilize a timer feature for cooking.
+- **Favorites Screen**: Users can view a list of their saved favorite recipes.
+- **Add Recipe**: Users can contribute their recipes by entering recipe details.
 
 ## Technologies Used:
 
-Kotlin: Primary programming language used for development.
-Screen Fragments: Utilized for modularizing UI components.
-Jetpack Navigation Component: Simplifies navigation between different fragments.
-RecyclerView: Used for displaying lists of data efficiently.
-REST API: Data from internet sources is consumed via RESTful APIs.
-Activity Lifecycle: Proper management of Android activity lifecycles.
-ViewModel Architecture: Separation of UI and data logic using ViewModel.
-Preference Library: Settings are stored using Android's preference library.
-Room Persistent Library: Data persistence is handled using Room, an SQLite object mapping library.
-SQL: Database interactions are managed using SQL queries.
-Navigation UI: Provides seamless navigation experience for users.
+- **Kotlin**: Primary programming language used for development.
+- **Screen Fragments**: Utilized for modularizing UI components.
+- **Jetpack Navigation Component**: Simplifies navigation between different fragments.
+- **RecyclerView**: Used for displaying lists of data efficiently.
+- **REST API**: Data from internet sources is consumed via RESTful APIs.
+- **Activity Lifecycle**: Proper management of Android activity lifecycles.
+- **ViewModel Architecture**: Separation of UI and data logic using ViewModel.
+- **Preference Library**: Settings are stored using Android's preference library.
+- **Room Persistent Library**: Data persistence is handled using Room, an SQLite object mapping library.
+- **SQL**: Database interactions are managed using SQL queries.
+- **Navigation UI**: Provides seamless navigation experience for users.
 
 
 # Usage
