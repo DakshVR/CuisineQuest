@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">CuisineQuest</string>
+    <string name="search_hint">Search for Recipes</string>
+
+    <string name="pref_user_title">Search Only For specific type of food</string>
+    <string name="pref_user_key" translatable="false">user</string>
+    
+    <string name="label_save_recipe">Save Recipe to Bookmark</string>
+    <string name="bookmark_default_text">Hey!! It\'s empty here add your favorite recipes 😋 to show here</string>
+    <string name="share_text_template">%1$s\n\nIngredients:\n%2$s\n\nInstructions:\n%3$s</string>
+
+
+    <!-- Cuisine Options -->
+        <string-array name="cuisine_options">
+            <item>None</item>
+            <item>African</item>
+            <item>Chinese</item>
+            <item>Japanese</item>
+            <item>Korean</item>
+            <item>Vietnamese</item>
+            <item>Thai</item>
+            <item>Indian</item>
+            <item>British</item>
+            <item>Irish</item>
+            <item>French</item>
+            <item>Italian</item>
+            <item>Mexican</item>
+            <item>Spanish</item>
+            <item>Middle Eastern</item>
+            <item>Jewish</item>
+            <item>American</item>
+            <item>Cajun</item>
+            <item>Southern</item>
+            <item>Greek</item>
+            <item>German</item>
+            <item>Nordic</item>
+            <item>Eastern European</item>
+            <item>Caribbean</item>
+            <item>Latin American</item>
+        </string-array>
+
+        <string-array name="cuisine_values">
+            <item>None</item>
+            <item>african</item>
+            <item>chinese</item>
+            <item>japanese</item>
+            <item>korean</item>
+            <item>vietnamese</item>
+            <item>thai</item>
+            <item>indian</item>
+            <item>british</item>
+            <item>irish</item>
+            <item>french</item>
+            <item>italian</item>
+            <item>mexican</item>
+            <item>spanish</item>
+            <item>middle eastern</item>
+            <item>jewish</item>
+            <item>american</item>
+            <item>cajun</item>
+            <item>southern</item>
+            <item>greek</item>
+            <item>german</item>
+            <item>nordic</item>
+            <item>eastern european</item>
+            <item>caribbean</item>
+            <item>latin american</item>
+
+        </string-array>
+
+
+        <string-array name="diet_options">
+            <item>None</item>
+            <item>Pescetarian</item>
+            <item>Lacto Vegetarian</item>
+            <item>Ovo Vegetarian</item>
+            <item>Vegan</item>
+            <item>Paleo</item>
+            <item>Primal</item>
+            <item>Vegetarian</item>
+        </string-array>
+
+        <string-array name="diet_values">
+            <item>None</item>
+            <item>pescetarian</item>
+            <item>lacto vegetarian</item>
+            <item>ovo vegetarian</item>
+            <item>vegan</item>
+            <item>paleo</item>
+            <item>primal</item>
+            <item>vegetarian</item>
+        </string-array>
+
+
+
+</resources>

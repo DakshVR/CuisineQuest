@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/searchFragment">
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.CuisineQuest.edu.ui.RecipeSearchFragment"
+        android:label="Search Recipes"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_detailedRecipeFragment"
+            app:destination="@id/detailedRecipeFragment" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailedRecipeFragment"
+        android:name="com.CuisineQuest.edu.ui.DetailedRecipeFragment"
+        android:label="Recipe Details"
+        tools:layout="@layout/fragment_detailed_recipe">
+        <argument
+            android:name="recipeId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookmarkedDetailedRecipeFragment"
+        android:name="com.CuisineQuest.edu.ui.BookmarkedDetailedRecipeFragment"
+        android:label="Bookmarked recipe details"
+        tools:layout="@layout/fragment_detailed_recipe">
+        <argument
+            android:name="recipeId"
+            app:argType="string"/>
+    </fragment>
+
+
+
+    <fragment
+        android:id="@+id/bookmarkedFragment"
+        android:name="com.CuisineQuest.edu.ui.BookmarkedRecipesFragment"
+        android:label="Your Saved Recipes"
+        tools:layout="@layout/fragment_bookmarked_recipes">
+        <action
+            android:id="@+id/action_bookmarkedFragment_to_detailedRecipeFragment"
+            app:destination="@id/bookmarkedDetailedRecipeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addrecipeFragment"
+        android:name="com.CuisineQuest.edu.ui.AddRecipeFragment"
+        android:label="Add Your Recipe"
+        tools:layout="@layout/fragment_add_recipe">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.CuisineQuest.edu.ui.SettingsFragment"
+        android:label="Settings">
+    </fragment>
+
+    <action
+        android:id="@+id/navigate_to_settingsFragment"
+        app:destination="@id/settings"/>
+
+
+
+</navigation>

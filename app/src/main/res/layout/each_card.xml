@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/recipe_image"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_launcher_background"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/recipe_name"
+            android:layout_width="231dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|fill_horizontal|center_vertical"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/andada"
+            android:text="Title"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="DuplicateIds" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+
+
+
+

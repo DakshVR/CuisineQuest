@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:key="cuisine_preference"
+        android:title="Cuisine"
+        android:summary="Select your preferred cuisines"
+        android:entries="@array/cuisine_options"
+        android:entryValues="@array/cuisine_values"
+        android:dialogTitle="Select Cuisine"
+        app:useSimpleSummaryProvider="true"/>
+
+    <ListPreference
+        android:key="diet_preference"
+        android:title="Diet"
+        android:summary="Select your diet"
+        android:entries="@array/diet_options"
+        android:entryValues="@array/diet_values"
+        android:dialogTitle="Select Diet"
+        app:useSimpleSummaryProvider="true"/>
+
+
+</androidx.preference.PreferenceScreen>
