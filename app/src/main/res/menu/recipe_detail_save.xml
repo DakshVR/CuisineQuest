@@ -5,7 +5,7 @@
     <item
         android:id="@+id/save_button"
         android:title="@string/label_save_recipe"
-        android:icon="@drawable/ic_bookmark_add"
+        android:icon="@drawable/bookmark_off"
         app:showAsAction="ifRoom"/>
 
     <item

@@ -39,7 +39,6 @@ class BookmarkedDetailedRecipeFragment : Fragment(R.layout.fragment_detailed_rec
     private var currentRecipe: RecipeData? = null
 
 
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
@@ -135,13 +134,14 @@ class BookmarkedDetailedRecipeFragment : Fragment(R.layout.fragment_detailed_rec
 
 
     private fun toggleRecipeBookmark(recipeData: RecipeData) {
-        when (!isSaved) {
-            true -> {
+        isSaved = !isSaved
+        lifecycleScope.launch {
+            if (isSaved) {
                 recipeViewModel.addRecipeToDB(recipeData)
-            }
-            false -> {
+            } else {
                 recipeViewModel.deleteRecipeFromDB(recipeData)
             }
+            updateBookmarkIcon()
         }
     }
     private fun share() {

@@ -12,8 +12,9 @@ interface SpooncularService {
 
     @GET("recipes/{id}/information")
     @Headers(
-        "X-RapidAPI-Key: f20de6620emshe31644cd76c6349p1695d5jsn0f7ba62cd2eb",
+        "X-RapidAPI-Key: 71f09ccfb4msh548f6288ef15615p1ba813jsn1db913c03ca8",
         "X-RapidAPI-Host: spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
+
     )
     suspend fun loadRecipeDetails(
         @Path("id") recipeId: String
@@ -21,7 +22,7 @@ interface SpooncularService {
 
     @GET("recipes/complexSearch")
     @Headers(
-        "X-RapidAPI-Key: f20de6620emshe31644cd76c6349p1695d5jsn0f7ba62cd2eb",
+        "X-RapidAPI-Key: 71f09ccfb4msh548f6288ef15615p1ba813jsn1db913c03ca8",
         "X-RapidAPI-Host: spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
     )
     suspend fun searchRecipes(
