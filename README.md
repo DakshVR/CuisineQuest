@@ -9,6 +9,8 @@ CuisineQuest is an Android application developed in Kotlin using Android Studio.
 - **Favorites Screen**: Users can view a list of their saved favorite recipes.
 - **Add Recipe**: Users can contribute their recipes by entering recipe details.
 
+![Alt text](searchPage.jpeg)
+
 ## Technologies Used:
 
 - **Kotlin**: Primary programming language used for development.
